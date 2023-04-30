@@ -21,6 +21,8 @@ button {
 }
 body {
   font-family: var(--main-font-family);
+  color: var(--color-font-family);
+  background-color: var(--color-btm-font);
 }
 
 .logo {
@@ -66,8 +68,10 @@ body {
 .head-item:focus {
   color: var(--accent-color);
 }
-.head-contact {
+.head-adres {
   font-style: normal;
+}
+.head-contact {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -81,7 +85,7 @@ body {
 .section-one {
   background: var(--color-backgraund);
 }
-h1 {
+.main-list {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 56px;
@@ -104,13 +108,13 @@ h1 {
   background: var(--second-color);
 }
 .open-btn:hover {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
-h3 {
+.main-link {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-backgraund);
 }
@@ -151,7 +155,7 @@ h3 {
   color: var(--color-font-family);
 }
 /* section 4 */
-h2 {
+.section-main {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
