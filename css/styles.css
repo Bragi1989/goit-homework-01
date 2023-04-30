@@ -107,8 +107,12 @@ body {
   color: var(--color-btm-font);
   background: var(--second-color);
 }
-.open-btn:hover {
+.open-btn:hover,
+.open-btn:fokus {
   background-color: var(--accent-color);
+}
+.section-two {
+  line-height: 1.2;
 }
 .main-link {
   font-family: var(--main-font-family);
@@ -118,7 +122,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-backgraund);
 }
-.info-Strategy {
+.info-strategy {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -126,7 +130,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-font-family);
 }
-.info-Punctuality {
+.info-punctuality {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -134,7 +138,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-font-family);
 }
-.info-Diligence {
+.info-diligence {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -144,7 +148,7 @@ body {
 
   color: var(--color-font-family);
 }
-.info-Technologies {
+.info-technologies {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -159,7 +163,7 @@ body {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -177,7 +181,7 @@ body {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
 
   /* text-align: center; */
   letter-spacing: 0.02em;
