@@ -108,7 +108,7 @@ body {
   background: var(--second-color);
 }
 .open-btn:hover,
-.open-btn:fokus {
+.open-btn:focus {
   background-color: var(--accent-color);
 }
 .section-two {
@@ -118,11 +118,11 @@ body {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-backgraund);
 }
-.info-strategy {
+.info-section-two {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
@@ -130,40 +130,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-font-family);
 }
-.info-punctuality {
-  font-family: var(--main-font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-font-family);
-}
-.info-diligence {
-  font-family: var(--main-font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
 
-  letter-spacing: 0.02em;
-
-  color: var(--color-font-family);
-}
-.info-technologies {
-  font-family: var(--main-font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
-  color: var(--color-font-family);
-}
 /* section 4 */
 .section-main {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
