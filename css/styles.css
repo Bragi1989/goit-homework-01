@@ -273,12 +273,15 @@ img {
   left: 0px;
   top: 2280px;
   background: var(--color-backgraund);
+  padding: 100px 0;
 }
 .footer-main {
   margin-left: 156px;
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-two {
   font-family: var(--secondary-font-family);
