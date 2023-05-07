@@ -168,6 +168,9 @@ img {
   background-color: var(--accent-color);
 }
 /* ---------section 2------- */
+.sections-second {
+  padding: 120px 0;
+}
 .section-two {
   line-height: 1.2;
 }
