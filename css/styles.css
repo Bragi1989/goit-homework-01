@@ -127,6 +127,7 @@ img {
   left: 0px;
   top: 72px;
   background: var(--color-backgraund);
+  padding: 188px 0;
 }
 .hero {
   text-align: center;
@@ -139,13 +140,14 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
+  max-width: 496px;
   text-align: center;
   letter-spacing: 0.02em;
 
   color: var(--color-btm-font);
 }
 .open-btn {
+  display: block;
   min-width: 169px;
   padding: 16px 32px;
   height: 56px;
@@ -159,6 +161,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--color-btm-font);
   background: var(--second-color);
+  border: none;
 }
 .open-btn:hover,
 .open-btn:focus {
