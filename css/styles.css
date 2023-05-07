@@ -125,17 +125,16 @@ img {
 /* -------sections------ */
 .section-one {
   height: 600px;
-  left: 0px;
   top: 72px;
   background: var(--color-backgraund);
   padding: 188px 0;
 }
+
 .hero {
-  display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 188px 0px 188px 0px;
+  display: block;
 }
 .main-list {
   font-family: var(--main-font-family);
@@ -145,8 +144,9 @@ img {
   max-width: 496px;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--color-btm-font);
+  margin-left: auto;
+  margin-right: auto;
 }
 .open-btn {
   min-width: 169px;
@@ -228,6 +228,9 @@ img {
 
 /* section 4 */
 .section-four {
+  height: 732px;
+  left: 0px;
+  top: 1548px;
   background: var(--color-secondary-backgraund);
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -236,7 +239,6 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -245,11 +247,14 @@ img {
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
   gap: 24px;
 }
 
 .section-four-team {
+  width: 264px;
+  height: 380px;
+  left: 156px;
+  top: 1780px;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
   background: var(--color-btm-font);
@@ -261,16 +266,22 @@ img {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 32px;
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 .list-name {
   padding: 32px 16px;
+}
+.name-section-four {
+  text-align: center;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-backgraund);
+  margin-bottom: 8px;
 }
 .our-team-info {
   text-align: center;
@@ -286,7 +297,6 @@ img {
 }
 /* -------Footer------ */
 .footer-link {
-  height: 312px;
   left: 0px;
   top: 2280px;
   background: var(--color-backgraund);
@@ -301,6 +311,7 @@ img {
 }
 .logo-link {
   display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
 .logo-two {
@@ -369,7 +380,7 @@ img {
   background-color: var(--accent-color);
 }
 .potrfolio-conteiner {
-  width: 1155px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
@@ -382,7 +393,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  flex-basis: calc((100% - 24px) / 3);
+  /* flex-basis: calc((100% - 24px) / 3); */
 }
 .card-set-list {
   border: 1px solid var(--color-btm-two);
