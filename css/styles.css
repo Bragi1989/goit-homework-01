@@ -192,6 +192,7 @@ img {
   column-gap: 24px;
   padding-top: 120px;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .list-one {
   width: calc((100% - 72px) / 4);
