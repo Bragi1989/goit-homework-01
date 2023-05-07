@@ -7,6 +7,7 @@
   --color-btm-font: #ffffff;
   --color-backgraund: #2e2f42;
   --color-secondary-backgraund: #f4f4fd;
+  --color-btm-two: #e7e9fc;
 }
 
 .list {
@@ -204,6 +205,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-backgraund);
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .info-section-two {
   font-family: var(--main-font-family);
@@ -249,7 +251,7 @@ img {
 
 .section-four-team {
   background: var(--color-btm-font);
-  width: calc((100% - 72px) / 4);
+
   border-radius: 0px 0px 4px 4px;
 }
 .team-main-list {
@@ -266,6 +268,7 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .list-name {
   padding: 32px 16px;
@@ -334,9 +337,10 @@ img {
   justify-content: center;
   column-gap: 24px;
   margin-top: 91px;
-  margin-bottom: 68px;
+  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
+  gap: 24px;
 }
 .open-btn-portfolio {
   padding: 12px 24px;
@@ -350,6 +354,8 @@ img {
   letter-spacing: 0.04em;
   color: var(--second-color);
   background: var(--color-secondary-backgraund);
+  border: 1px solid var(--color-btm-two);
+  border-radius: 4px;
 }
 .open-btn-portfolio:hover {
   background: var(--accent-color);
@@ -357,6 +363,7 @@ img {
 .open-btn-portfolio:hover,
 .open-btn-portfolio:focus {
   color: var(--color-btm-font);
+  border: 1px solid transparent;
 }
 .open-btn-portfolio:hover,
 .open-btn-portfolio:focus {
@@ -378,7 +385,12 @@ img {
   flex-basis: calc((100% - 24px) / 3);
 }
 .card-set-list {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-btm-two);
+  border-top: none;
+}
+.list-name-two {
+  padding: 32px 16px;
+  border: 1px solid var(--color-btm-two);
   border-top: none;
 }
 .portfolio-main {
