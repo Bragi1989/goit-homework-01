@@ -258,7 +258,6 @@ img {
   background: var(--color-btm-font);
 }
 .team-main-list {
-  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
