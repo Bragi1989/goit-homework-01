@@ -31,6 +31,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 .section {
   padding-top: 120px;
@@ -57,7 +58,7 @@ img {
 }
 .head-two {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .logo {
@@ -96,6 +97,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 
   color: var(--color-backgraund);
 }
@@ -105,6 +107,7 @@ img {
 }
 .head-adres {
   font-style: normal;
+  gap: 40px;
 }
 .head-contact {
   font-weight: 400;
