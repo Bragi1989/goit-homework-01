@@ -121,7 +121,6 @@ img {
 
 /* -------sections------ */
 .section-one {
-  height: 600px;
   top: 72px;
   background: var(--color-backgraund);
   padding: 188px 0;
@@ -167,7 +166,7 @@ img {
 }
 /* ---------section 2------- */
 .sections-second {
-  padding: 120px 0;
+  padding-top: 120px;
 }
 .section-two {
   line-height: 1.2;
@@ -223,7 +222,6 @@ img {
 
 /* section 4 */
 .section-four {
-  height: 732px;
   left: 0px;
   top: 1548px;
   background: var(--color-secondary-backgraund);
@@ -238,7 +236,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-backgraund);
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -247,7 +245,6 @@ img {
 
 .section-four-team {
   width: 264px;
-  height: 380px;
   left: 156px;
   top: 1780px;
   border-radius: 0px 0px 4px 4px;
