@@ -232,6 +232,7 @@ h6 {
   top: 1548px;
   background: var(--color-secondary-backgraund);
   flex-basis: calc((100% - 72px) / 4);
+  padding: 120px 0;
 }
 .section-main {
   font-family: var(--main-font-family);
