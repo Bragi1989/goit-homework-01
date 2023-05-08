@@ -254,7 +254,6 @@ p {
   text-align: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px) / 4);
 }
 
 .list-name {
@@ -356,13 +355,13 @@ p {
 }
 .potrfolio-conteiner {
   width: 1158px;
-}
-.card-set {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 120px;
+}
+.card-set {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
