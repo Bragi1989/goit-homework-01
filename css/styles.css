@@ -366,6 +366,7 @@ p {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .card-set-list {
   border: 1px solid var(--color-btm-two);
   border-top: none;
