@@ -271,6 +271,14 @@ p {
 }
 
 .logo-link {
+  font-family: var(--secondary-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-color);
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -314,7 +322,6 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
@@ -357,9 +364,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-backgraund);
-  padding-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 .portfolio-info {
   font-family: var(--main-font-family);
@@ -368,6 +373,4 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-font-family);
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
